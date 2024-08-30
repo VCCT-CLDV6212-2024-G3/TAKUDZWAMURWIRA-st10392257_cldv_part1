@@ -1,0 +1,129 @@
+
+
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    background-color: #212D40;
+    color: #FFE2FE;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+.drop-zone {
+    border: 2px dashed #ccc;
+    height: 125px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: border-color 0.3s;
+}
+
+    .drop-zone.dragover {
+        border-color: #333;
+    }
+
+.hidden-file-input {
+    display: none;
+}
+
+.container {
+    background: #1C3738;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: auto;
+    position: center;
+    margin-inline: 18%;
+    margin-top: 30px;
+}
+
+    .container form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+.drop-zone {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="file"]:focus,
+    .drop-zone:hover {
+        border-color: #007bff;
+        box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+    }
+
+button {
+    background-color: #F79F79;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+    button:hover {
+        background-color: #F9BA9F;
+        box-shadow: 0 4px 8px rgba(0, 91, 179, 0.3);
+    }
+
+.upload-image__container {
+    background-color: #364156;
+    padding: 20px;
+}
+
+.add-profile__container {
+    background-color: #364156;
+    padding: 20px;
+}
+
+.process-order__container {
+    background-color: #364156;
+    padding: 20px;
+}
+
+.upload-contract__container {
+    background-color: #364156;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px;
+    background-color: #8baaad22;
+    color: white;
+}

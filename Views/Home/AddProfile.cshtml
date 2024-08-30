@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Add Profile";
+}
+<h1>@ViewData["Title"]</h1>
+<form asp-action="AddCustomerProfile" method="post">
+    <input type="text" name="FirstName" placeholder="First Name" />
+    <input type="text" name="LastName" placeholder="Last Name" />
+    <input type="email" name="Email" placeholder="Email" />
+    <input type="text" name="PhoneNumber" placeholder="Phone Number" />
+    <button type="submit">Add Profile</button>
+</form>
